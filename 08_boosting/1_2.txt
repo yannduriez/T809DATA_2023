@@ -1,0 +1,4 @@
+In Get_better_titanic, I have changed the age column NaN values to the mean of all
+the data set age.
+The mean is 29.88 years old. Then in both train and test data, the NaN values have been
+changed to 29.88 years old.

@@ -1,0 +1,7 @@
+The best value of k according the the objective function is the biggest one, K=10.
+as function of n, the function curve will be devided in n segments. Js reaches a 
+smaller value.
+When k = n, there will be as many clusters as there are data samples.
+Then, set k = n will get each data point to have its own cluster, resulting in useless 
+information provided. so we should find a balance between the  model complexity and 
+meaningful clustering.

@@ -1,0 +1,4 @@
+Value of the best parameters:
+
+{'n_estimators': 15, 'max_depth': 4, 'learning_rate': 0.3}
+

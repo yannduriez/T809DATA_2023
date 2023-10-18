@@ -15,8 +15,8 @@ def get_titanic():
         train = pd.read_csv('./data/train.csv')
         test = pd.read_csv('./data/test.csv')
     else:
-        train = pd.read_csv('train.csv')
-        test = pd.read_csv('test.csv')
+        train = pd.read_csv('C:/Users/Yann/OneDrive - ECAM Strasbourg-Europe/01 Yann/ECAM 5/Data mining & machine learning/T809DATA_2023/08_boosting/data/train.csv')
+        test = pd.read_csv('C:/Users/Yann/OneDrive - ECAM Strasbourg-Europe/01 Yann/ECAM 5/Data mining & machine learning/T809DATA_2023/08_boosting/data/test.csv')
 
     # Concatenate the train and test set into a single dataframe
     # we drop the `Survived` column from the train set
@@ -36,7 +36,7 @@ def get_titanic():
     # in this assignment
     # Maybe we should
     X_full.drop(
-        ['PassengerId', 'Cabin', 'Age', 'Name', 'Ticket'],
+        ['PassengerId', 'Cabin', 'Name', 'Ticket'], #, 'Age'
         inplace=True, axis=1)
 
     # Instead of dropping the fare column we replace NaN values

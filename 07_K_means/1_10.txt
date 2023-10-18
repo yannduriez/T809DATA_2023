@@ -1,0 +1,16 @@
+While calculating the accuracy and the confusion matrix, we find something around 
+those values :
+
+
+Accuracy:
+84.66666666666667
+
+Confusion matrix:
+ [[50  0  0 ...  0  0  0]
+ [ 0 37 10 ...  0  0  0]
+ [ 0 13 40 ...  0  0  0]
+ ...
+ [ 0  0  0 ...  0  0  0]
+
+
+The accuracy is usually between 80% and 85%.

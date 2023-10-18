@@ -1,0 +1,8 @@
+Gradient boosting classifier accuracy, precision and recall on the test set:
+
+Accuracy: 0.8246268656716418, 
+Precision: 0.8111111111111111, 
+Recall: 0.7087378640776699
+
+With the same parameters, the gradient boosting classifier accuracy and precision
+higher but the recall is smaller compared to the random forest classifier.

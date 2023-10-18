@@ -1,0 +1,7 @@
+I have chosen the paramters n_estimators = 100 and randomstate = 0 because after
+few tries with different values, it was giving the best accuracy, precision and 
+recall.
+
+Accuracy: 0.8283582089552238, 
+Precision: 0.7878787878787878, 
+Recall: 0.7572815533980582

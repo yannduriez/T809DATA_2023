@@ -19,8 +19,9 @@ def load_iris():
     return iris.data, iris.target, [0, 1, 2]
 
 
-def image_to_numpy(path: str = './images/buoys.png'):
-    '''Converts an image to a numpy array and returns
+def image_to_numpy(path: str = 'C:/Users/Yann/OneDrive - ECAM Strasbourg-Europe/01 Yann/ECAM 5/Data mining & machine learning/T809DATA_2023/07_K_means/images/buoys.png'):
+    '''
+    Converts an image to a numpy array and returns
     it and the original width and height
     '''
     # we only want the RGB values, not the A value.
