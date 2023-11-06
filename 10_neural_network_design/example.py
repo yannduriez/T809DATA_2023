@@ -50,7 +50,7 @@ class IrisDataSet(Dataset):
         # * Features should be of type float
         # * Class labels should be of type long
         self.features = torch.from_numpy(features).float()
-        self.targets = torch.from_numpy(targets)
+        self.targets = torch.from_numpy(targets).long()
 
     def __len__(self):
         '''We always have to define this method
